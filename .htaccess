@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^([0-9]+)$ index.php?comic_id=$1 [NC,QSA,L]
+RewriteRule ^rss.xml$ rss.xml.php [NC,QSA,L]
